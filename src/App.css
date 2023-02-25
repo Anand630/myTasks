@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page-main-container {
+  height: 100vh;
+  display: flex;
+}
+
+.left-container {
+  width: 35%;
+  padding: 70px 20px;
+  background-color: #131213;
+}
+
+.create-task-heading {
+  color: #f3aa4e;
+  font-family: Roboto;
+  font-weight: 500;
+  text-align: center;
+}
+
+.label-input-container {
+  width: 80%;
+  margin: 0px auto 30px auto;
+}
+
+.label {
+  display: block;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.title-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px 10px 10px 20px;
+  font-family: Roboto;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.option-select-input {
+  width: 100%;
+  height: 40px;
+  font-family: Roboto;
+  padding-left: 10px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-task-button-container {
+  text-align: center;
+}
+
+.add-button {
+  background-color: #f3aa4e;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+
+.right-container {
+  width: 65%;
+  background-color: #000000;
+  padding: 70px 20px 20px 20px;
+}
+
+.tags-heading {
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.all-categories-list-container {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.all-tasks-list-container {
+  padding-left: 0;
+  list-style: none;
+}
+
+.no-tasks-added {
+  color: #ffffff;
+  font-family: Roboto;
+  text-align: center;
+}

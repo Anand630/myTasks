@@ -1,0 +1,15 @@
+.category-item {
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.category-button {
+  background-color: transparent;
+  border: 1px solid #f1f5f9;
+  color: #f1f5f9;
+  padding: 8px 18px;
+  border-radius: 20px;
+
+  cursor: pointer;
+  outline: none;
+}
